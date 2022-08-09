@@ -1,0 +1,1 @@
+docker run -d --publish 5432:5432 -e POSTGRES_PASSWORD=admin -e POSTGRES_USER=admin -e POSTGRES_DB=userservice  postgres:14
